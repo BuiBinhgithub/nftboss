@@ -1,0 +1,71 @@
+.footer {
+    margin-top: 100px;
+    background-color: #A3DFBE;
+    width: 100%;
+    height: 558px;
+
+}
+
+.footer-top {
+    padding-top: 24px;
+}
+
+.footer-top-column {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social {
+    width: 320px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+.underline-footer {
+    margin: 48px 74px 0 74px;
+    border-bottom: 0.5px solid #D8D7D7;
+}
+
+.copy-right {
+    margin-top: 30px;
+    margin-left: 38px;
+}
+
+.footer-sign-up {
+    width: 26%;
+}
+
+.footer-sign-up>p {
+    line-height: 32px;
+    margin-bottom: 10px;
+}
+
+.signup-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.signup-input {
+    padding: 9px;
+    border: 1px solid #00ac4f;
+    background-color: #a3dfbe;
+    width: 77%;
+}
+
+.signup-button {
+    background-color: #00ac4f;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#privacy {
+    display: flex;
+    margin-top: 18px;
+}

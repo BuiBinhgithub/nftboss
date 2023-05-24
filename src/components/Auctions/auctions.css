@@ -1,0 +1,20 @@
+.auction-container {
+    max-width: 1180px;
+    margin: 110px auto 0 auto;
+    position: relative;
+}
+
+.auction-title {
+    font-weight: 700;
+    font-size: 46px;
+    height: 130px;
+}
+
+.auction-card img {
+    border-radius: 20px;
+}
+
+.auction-price {
+    display: flex;
+    gap: 30px
+}

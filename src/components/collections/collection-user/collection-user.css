@@ -1,0 +1,58 @@
+.collect-user-container {
+    width: 33%;
+}
+
+
+.collect-user-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.collect-user-container>img {
+    border-radius: 20px;
+}
+
+.collection-user-ava {
+    display: flex;
+    margin-top: 25px;
+}
+
+.collection-user-ava>img {
+    width: 46px;
+    height: 46px;
+    border-radius: 50px;
+}
+
+.collection-user-name {
+    margin-left: 10px;
+}
+
+.collection-user-name p:first-child {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.collection-user-name p:nth-child(2) {
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.collection-user-name img {
+    margin-left: 10px;
+}
+
+.collection-user-highest {
+    margin-top: 25px;
+}
+
+.collection-user-highest img {
+    margin-right: 5px;
+}
+
+.collection-user-highest :nth-child(2) {
+    display: flex;
+    font-weight: 700;
+    font-size: 16px;
+    color: #00AC4F;
+}

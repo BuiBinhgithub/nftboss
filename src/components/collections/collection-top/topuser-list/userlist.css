@@ -1,0 +1,60 @@
+.userlist-container {
+    margin-top: 32px;
+}
+
+.user-item {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.number-user {
+    display: flex;
+    font-weight: 700;
+    font-size: 24px;
+    align-items: center;
+    margin-right: 24px;
+}
+
+.user-info-top {
+    display: flex;
+}
+
+.user-info-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-info-top>p {
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+
+.user-item>img {
+    border-radius: 50px;
+}
+
+.user-item-info {
+    margin-top: 6px;
+    margin-left: 20px;
+}
+
+.eth-number {
+    font-weight: 600;
+    color: #636363;
+    margin-right: 40px;
+}
+
+.ethereum-user {
+    margin-top: 5px;
+}
+
+.user-percent {
+    margin-top: 6px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #14C8B0;
+}
+
+.red {
+    color: #FF002E;
+}

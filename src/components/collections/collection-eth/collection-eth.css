@@ -1,0 +1,68 @@
+.ethereum-container {
+    width: 33%;
+}
+
+.eth-user {
+    display: flex;
+    margin-bottom: 34px;
+}
+
+.eth-user>img {
+    border-radius: 10px;
+}
+
+.eth-info {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.eth-info>p {
+    font-weight: 700;
+    size: 20px;
+    margin-bottom: 13px;
+}
+
+.verified {
+    margin-left: 16px;
+}
+
+.eth-info-number {
+    display: flex;
+    gap: 3px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+.ethereum {
+    margin-top: 9px;
+    margin-left: 5px;
+}
+
+.eth-info-number img:first-child {
+    border-radius: 20px;
+    margin-left: -3px;
+}
+
+.eth-info-number p {
+    color: #00AC4F;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.eth-info-number p,
+span {
+    margin-left: 2px;
+    margin-top: 10px;
+}
+
+.eth-info-number span {
+    margin-top: 9px;
+    margin-left: 15px;
+    font-size: 14px;
+    color: #757575;
+}
+
+.eth-bid {
+    font-size: 14px;
+    margin-top: 28px;
+}

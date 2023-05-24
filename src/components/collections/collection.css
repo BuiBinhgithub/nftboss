@@ -1,0 +1,31 @@
+.collection-container {
+    max-width: 1180px;
+    margin: 100px auto 0 auto;
+}
+
+.collecttion-title {
+    font-weight: 700;
+    font-size: 46px;
+    margin-bottom: 52px;
+}
+
+.collecttion-content {
+    display: flex;
+    margin-top: 33px;
+    gap: 40px;
+}
+
+.collection-ranking {
+    margin-top: 44px;
+}
+
+.collection-button {
+    width: 240px;
+    height: 64px;
+    background-color: #00AC4F;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    border-radius: 9px;
+}

@@ -1,0 +1,136 @@
+/* HEADER LOGO */
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 102px;
+}
+
+.header_logo>p {
+    font-weight: 700;
+    font-size: 27px;
+    font-style: italic;
+
+}
+
+/* HEADER SEARCH */
+.header_search {
+    position: relative;
+    background: #EFEFEF;
+}
+
+.header_input {
+    background-color: #EFEFEF;
+    border: none;
+    padding: 12px 62px;
+    display: block;
+}
+
+.header_search button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0px 8px 14px;
+    z-index: 2;
+}
+
+.header_user {
+    display: flex;
+}
+
+.wallet {
+    margin-left: 35px;
+}
+
+.underline {
+    margin: 0 74px;
+    border-bottom: 0.5px solid #D8D7D7;
+}
+
+/* HEADER NAV */
+.nav_item {
+    display: inline;
+    margin-right: 38px;
+}
+
+/* Responsive styles for mobile */
+@media screen and (max-width: 767px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .header_logo {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .header_search {
+        margin-bottom: 10px;
+    }
+
+    .header_input {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .header_search button {
+        padding: 5px;
+    }
+
+    .header_nav {
+        text-align: center;
+    }
+
+    .nav_item {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .header_user {
+        justify-content: center;
+    }
+
+    .underline {
+        margin: 0 10px;
+    }
+}
+
+/* Responsive styles for tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .header {
+        height: 80px;
+    }
+
+    .header_logo {
+        margin-right: 20px;
+    }
+
+    .header_search {
+        margin-right: 20px;
+    }
+
+    .header_input {
+        width: 200px;
+        padding: 8px;
+    }
+
+    .header_search button {
+        padding: 6px;
+    }
+
+    .nav_item {
+        margin-right: 20px;
+    }
+
+    .underline {
+        margin: 0 20px;
+    }
+}

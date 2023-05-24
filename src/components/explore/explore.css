@@ -1,0 +1,45 @@
+.explore-container {
+    max-width: 1180px;
+    margin: 80px auto 0 auto;
+}
+
+.explore-title {
+    font-weight: 700;
+    font-size: 46px;
+    margin-bottom: 50px;
+}
+
+.explore-content {
+    display: flex;
+    gap: 7px;
+}
+
+.explore-column {
+    width: 20%;
+    border: 0.3px solid #ADADAD;
+}
+
+.explore-inside {
+    max-width: 190px;
+    margin: 10px auto 10px auto;
+}
+
+.explore-heading {
+    display: flex;
+    justify-content: flex-start;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.explore-heading img:first-child {
+    border-radius: 20px;
+}
+
+.explore-bottom {
+    line-height: 22px;
+}
+
+.explore-bottom h3 {
+    margin-top: 9px;
+}
